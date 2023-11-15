@@ -2,7 +2,7 @@
   margin-top: 50px;
 }
 
-.cards__grid-list {
+.cards__list {
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(auto-fit, 280px);
