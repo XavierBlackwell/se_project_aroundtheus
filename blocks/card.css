@@ -10,8 +10,8 @@
 .card {
   display: flex;
   border-radius: 10px;
-  flex-direction: column;
   list-style-type: none;
+  flex-direction: column;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
