@@ -1,0 +1,15 @@
+.copyright {
+  color: #545454;
+  width: 318px;
+  height: 18px;
+
+  margin: 67px 0px 60px 272px;
+}
+
+@media screen and (max-width: 480px) {
+  .copyright {
+    width: 282px;
+    height: 14px;
+    margin: 48px 19px 36px 19px;
+  }
+}

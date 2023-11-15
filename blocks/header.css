@@ -1,0 +1,33 @@
+.logo {
+  width: 173px;
+  height: 33px;
+}
+
+.page__section {
+  max-width: 880px;
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.page__content {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  margin-top: 45px;
+}
+
+@media screen and (max-width: 480px) {
+  .logo {
+    width: 126px;
+    height: 24px;
+    margin: 28px 0 0 27px;
+  }
+
+  .header {
+    margin: 0;
+  }
+}
