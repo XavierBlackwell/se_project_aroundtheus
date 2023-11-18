@@ -57,7 +57,7 @@
 .profile__add-button {
   background: transparent url(../images/add.svg) center no-repeat;
   height: 50px;
-  width: 150px;
+  min-width: 150px;
   margin-left: auto;
 }
 
@@ -65,7 +65,7 @@
   opacity: 0.6;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 568px) {
   .profile {
     flex-direction: column;
   }
@@ -98,6 +98,10 @@
     height: 22px;
     text-align: center;
     margin: 30px 10px 15px 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 373px;
   }
 
   .profile__edit-button {
