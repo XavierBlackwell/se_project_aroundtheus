@@ -21,7 +21,6 @@
   grid-area: title;
   margin: 0 10px 7px 0;
   width: 373px;
-  height: 48px;
 }
 
 .profile__desc {
@@ -92,10 +91,8 @@
 
   .profile__title {
     font-size: 22px;
-    font-weight: 500;
     line-height: 27px;
     width: 196px;
-    height: 22px;
     text-align: center;
     margin: 30px 10px 15px 0;
     text-overflow: ellipsis;
