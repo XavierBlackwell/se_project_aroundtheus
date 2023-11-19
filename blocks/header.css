@@ -1,5 +1,11 @@
 .header {
-  margin-top: 45px;
+  padding-top: 45px;
+  border-bottom: 1px solid;
+  padding-bottom: 40px;
+  border-color: rgba(84, 84, 84, 0.7);
+  max-width: 880px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .header__logo {
