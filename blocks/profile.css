@@ -20,6 +20,7 @@
   font-weight: 500;
   grid-area: title;
   margin: 0 10px 7px 0;
+  text-overflow: ellipsis;
   width: 373px;
 }
 
@@ -95,7 +96,6 @@
     width: 196px;
     text-align: center;
     margin: 30px 10px 15px 0;
-    text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
     max-width: 373px;
@@ -106,4 +106,9 @@
     height: 18px;
     margin: 35px 0 0 0;
   }
-}
+  
+  .profile__image{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
