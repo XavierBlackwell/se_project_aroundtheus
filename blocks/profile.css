@@ -128,9 +128,10 @@
     height: 18px;
     margin: 35px 0 0 0;
   }
-  
-  .profile__image{
+
+  .profile__image {
     display: flex;
     justify-content: center;
     margin: 0;
   }
+}
