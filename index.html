@@ -4,16 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Around the U.S.</title>
+    <meta name="author" content="Xavier Blackwell" />
+    <link rel="shortcut icon" href="favicon.ico" />
     <link href="./pages/index.css" rel="stylesheet" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
   </head>
   <body class="page">
     <div class="page__content">
       <header class="header page__section">
-        <img class="logo" src="./images/Logo.svg" alt="Logo" />
+        <img class="header__logo" src="./images/Logo.svg" alt="Logo" />
       </header>
       <main class="main">
         <section class="profile page__section">
@@ -24,17 +22,13 @@
           />
           <div class="profile__info">
             <h1 class="profile__title">Jacques Cousteau</h1>
-            <button
-              type="button"
-              class="edit__button"
-              id="edit__button"
-            ></button>
+            <button type="button" class="profile__edit-button"></button>
             <p class="profile__desc">Explorer</p>
           </div>
-          <button type="button" class="add__button"></button>
+          <button type="button" class="profile__add-button"></button>
         </section>
         <section class="cards page__section">
-          <ul class="card__list">
+          <ul class="cards__list">
             <li class="card">
               <img
                 src="./card-images/yosemite.jpg"
@@ -43,11 +37,7 @@
               />
               <div class="card__desc">
                 <h2 class="card__title">Yosemite Valley</h2>
-                <button
-                  type="button"
-                  class="like__button"
-                  id="like__button"
-                ></button>
+                <button type="button" class="card__like-button"></button>
               </div>
             </li>
             <li class="card">
@@ -58,11 +48,7 @@
               />
               <div class="card__desc">
                 <h2 class="card__title">Lake Louise</h2>
-                <button
-                  type="button"
-                  class="like__button"
-                  id="like__button"
-                ></button>
+                <button type="button" class="card__like-button"></button>
               </div>
             </li>
             <li class="card">
@@ -73,11 +59,7 @@
               />
               <div class="card__desc">
                 <h2 class="card__title">Bald Mountains</h2>
-                <button
-                  type="button"
-                  class="like__button"
-                  id="like__button"
-                ></button>
+                <button type="button" class="card__like-button"></button>
               </div>
             </li>
             <li class="card">
@@ -88,11 +70,7 @@
               />
               <div class="card__desc">
                 <h2 class="card__title">Latemar</h2>
-                <button
-                  type="button"
-                  class="like__button"
-                  id="like__button"
-                ></button>
+                <button type="button" class="card__like-button"></button>
               </div>
             </li>
             <li class="card">
@@ -103,11 +81,7 @@
               />
               <div class="card__desc">
                 <h2 class="card__title">Vanoise National Park</h2>
-                <button
-                  type="button"
-                  class="like__button"
-                  id="like__button"
-                ></button>
+                <button type="button" class="card__like-button"></button>
               </div>
             </li>
             <li class="card">
@@ -118,17 +92,13 @@
               />
               <div class="card__desc">
                 <h2 class="card__title">Lago di Braises</h2>
-                <button
-                  type="button"
-                  class="like__button"
-                  id="like__button"
-                ></button>
+                <button type="button" class="card__like-button"></button>
               </div>
             </li>
           </ul>
         </section>
         <footer class="footer">
-          <p class="copyright">© 2022 Around The U.S.</p>
+          <p class="footer__copyright page__section">© 2022 Around The U.S.</p>
         </footer>
       </main>
     </div>
