@@ -56,6 +56,7 @@
   grid-area: button;
   border: 1px solid white;
   cursor: pointer;
+  margin-right: 10px;
 }
 
 .profile__edit-button:hover {
@@ -70,6 +71,7 @@
   margin-left: auto;
   cursor: pointer;
   border-radius: 2px;
+  margin-bottom: 60px;
 }
 
 .profile__add-button:hover {
