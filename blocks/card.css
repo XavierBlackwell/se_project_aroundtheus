@@ -13,7 +13,7 @@
   object-fit: cover;
 }
 
-.card__description {
+.card__desc {
   display: flex;
   background: white;
   color: black;
